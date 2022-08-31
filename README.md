@@ -122,11 +122,11 @@ func main() {
 
   go is a tool for managing Go source code.
 
-  1. go run: it compiles and runs the application. It doesn’t produce an executable
+  I. go run: it compiles and runs the application. It doesn’t produce an executable
 
   - go run ﬁle.go compiles and immediately runs Go programs.
 
-  2. go build: it just compiles the application. It produces an executable
+  II. go build: it just compiles the application. It produces an executable
 
   - go build ﬁle.go compiles a bunch of Go source ﬁles. It compiles packages and dependencies.
   - If you run go build it will compile the ﬁles in the current directory and will produce an executable ﬁle with the name of the current working directory.
@@ -215,7 +215,3 @@ Please enjoy and feel free to share your opinion, constructive criticism, or com
 # Acknowledgement
 
 - This project is part of the online course I've taken at Udemy. Thanks to Andrei Dumitrescu - Crystal Mind Academy! for creating this awesome course! Link to the course: [Master Go (Golang) Programming:The Complete Go Bootcamp 2022](https://www.udemy.com/course/master-go-programming-complete-golang-bootcamp/)
-
-```
-
-```
