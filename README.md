@@ -209,6 +209,12 @@ obj.SetOwner(user)
 
 - By convention, one-method interfaces are named by the method name plus an -er suﬃx: Reader, Writer, Formatter, etc.
 - Golang fmt package
+- Constant in Go
+  - In Golang, we use the term constant to represent ﬁxed (unchanging) values.
+  - We use constants to avoid possible errors (variables that change when they shouldn’t) or to replace a value only in one place instead of in many places
+  - All basic literals (1, 3.4, “hello”, true) are in fact unnamed constants.
+  - A constant belongs to compile time and it’s created at compile time. It’s value can not be changed while the program is running.
+  - Another advantage of using constants is that Go can not detect runtime errors at compile-time but constants belong to compile time so errors can be detect
 
 ### number) rnt-example-point
 
