@@ -13,7 +13,7 @@
   <a href="#development-process">Development Process</a> •
   <a href="#installation">Installation</a> •
   <a href="#build-with">Build With</a> •
-  <a href="#npm-packages">NPM Packages</a> •
+  <a href="#packages">Packages</a> •
   <a href="#demonstration">Demonstration</a> •
   <a href="#future-updates">Future Updates</a> • 
   <a href="#known-bugs">Known Bugs</a> • 
@@ -218,6 +218,7 @@ obj.SetOwner(user)
 - Constant rules
 - Constant Expressions, Typed vs Untyped Constants
 - IOTA
+- Data types
 
 ### number) rnt-example-point
 
