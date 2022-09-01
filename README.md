@@ -190,6 +190,7 @@ $ gofmt -w -l <rnt-directory-name>
 
 - Variables in Go
 - Multiple Declarations
+- Types and zero values
 
 ### number) rnt-example-point
 
