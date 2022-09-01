@@ -216,7 +216,7 @@ obj.SetOwner(user)
   - A constant belongs to compile time and it’s created at compile time. It’s value can not be changed while the program is running.
   - Another advantage of using constants is that Go can not detect runtime errors at compile-time but constants belong to compile time so errors can be detect
 - Constant rules
-  -
+- Constant Expressions, Typed vs Untyped Constants
 
 ### number) rnt-example-point
 
