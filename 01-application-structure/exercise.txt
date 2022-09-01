@@ -1,0 +1,55 @@
+Coding Exercise #1
+
+Go to Go Playground (https://go.dev/play/p/UCPdVNrl0-P)  and starting from this empty file create the basic structure of a typical Go Application.
+
+Declare a variable and print its value.
+
+Run the program without errors. 
+
+WARNING: Are you stuck? Do you want to see the solution for this exercise? Click here (https://go.dev/play/p/9JjGIOKPqLd).
+
+
+
+Coding Exercise #2
+
+In VSCode in a directory called exercise2 under $GOPATH/src/master_go_programming create a file named main.go with the typical structure of any Go Application (exercise #1).
+
+Open the terminal in VSCode or independent from VSCode. Run the program in terminal by typing: go run main.go
+
+
+
+Exercise #3
+
+Compile the program from Exercise #2 manually using the go command. The executable should appear in the current working directory. Notice its name and run it!
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Exercise #4
+
+Compile the program from Exercise #2 manually using the go command.  Produce an executable called my_first_go_app.exe (if you are on Windows) or my_first_go_app (if you are on Linux/Mac) in the current working directory.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Exercise #5
+
+If you are on Windows compile the program from Exercise #2 for Linux using the go command.
+
+If you are on Mac compile the program from Exercise #2  for Windows using the go command.
+
+If you are on Linux compile the program from Exercise #2 for Mac using the go command.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Exercise #6
+
+Download the following Go source code locally on your hard disk. Download file.
+
+Using the go command and the appropriate option, format the source code file in the idiomatic Go style.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.

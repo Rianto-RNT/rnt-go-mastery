@@ -186,6 +186,10 @@ $ gofmt -w -l <rnt-directory-name>
 
 - [![](rnt-example-imageUrl)](https://github.com/Rianto-RNT)
 
+### 02) Go Basic
+
+- Variables in Go
+
 ### number) rnt-example-point
 
 ## Articles
