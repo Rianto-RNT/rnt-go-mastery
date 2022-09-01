@@ -191,7 +191,23 @@ $ gofmt -w -l <rnt-directory-name>
 - Variables in Go
 - Multiple Declarations
 - Types and zero values
-- Comments in go
+- Comments
+- Naming convensions
+
+  - By convention, packages are given lower case, single-word names;
+  - Go doesn't provide automatic support for getters and setters. If you have a ﬁeld in a struct called owner, the getter method should be called Owner (upper case, exported), not GetOwner.
+
+  A setter function, if needed, will likely be called SetOwner.
+
+```sh
+owner := obj.Owner()
+
+if owner != user {
+obj.SetOwner(user)
+}
+```
+
+- By convention, one-method interfaces are named by the method name plus an -er suﬃx: Reader, Writer, Formatter, etc.
 
 ### number) rnt-example-point
 
@@ -203,6 +219,7 @@ $ gofmt -w -l <rnt-directory-name>
 - [Download Go](https://go.dev/dl/)
 - [How to Install Go on Windows](https://golangdocs.com/install-go-windows)
 - [Inside the Go Playground](https://go.dev/blog/playground)
+- [The Go Programming Language Specification](https://go.dev/ref/spec)
 - [rnt-example-point](https://github.com/)
 
 ## Future Updates
