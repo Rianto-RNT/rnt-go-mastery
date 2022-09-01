@@ -33,4 +33,19 @@ func main() {
 	)
 
 	fmt.Println(min1, min2, min3)
+
+	//CONSTANTS RULES
+	// we can not change a constant
+	const temp int = 100
+	// tempt = 50
+
+	// 2. we can not initiate a constant at runtime
+	// const power = math.Pow(2, 3)
+
+	// 3. we cannot use a variable to initialize a constant
+	// t := 5
+	// const tc = t
+
+	// 4.
+	const l1 = len("hello")
 }

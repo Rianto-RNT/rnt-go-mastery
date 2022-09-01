@@ -215,6 +215,8 @@ obj.SetOwner(user)
   - All basic literals (1, 3.4, “hello”, true) are in fact unnamed constants.
   - A constant belongs to compile time and it’s created at compile time. It’s value can not be changed while the program is running.
   - Another advantage of using constants is that Go can not detect runtime errors at compile-time but constants belong to compile time so errors can be detect
+- Constant rules
+  -
 
 ### number) rnt-example-point
 
