@@ -186,7 +186,7 @@ $ gofmt -w -l <rnt-directory-name>
 
 - [![](rnt-example-imageUrl)](https://github.com/Rianto-RNT)
 
-### 02) Go Basic
+### 2) Go Basic
 
 - Variables in Go
 - Multiple Declarations
@@ -208,6 +208,7 @@ obj.SetOwner(user)
 ```
 
 - By convention, one-method interfaces are named by the method name plus an -er suﬃx: Reader, Writer, Formatter, etc.
+- Golang fmt package
 
 ### number) rnt-example-point
 
@@ -220,6 +221,7 @@ obj.SetOwner(user)
 - [How to Install Go on Windows](https://golangdocs.com/install-go-windows)
 - [Inside the Go Playground](https://go.dev/blog/playground)
 - [The Go Programming Language Specification](https://go.dev/ref/spec)
+- [Golang fmt package](https://pkg.go.dev/fmt)
 - [rnt-example-point](https://github.com/)
 
 ## Future Updates
