@@ -217,6 +217,7 @@ obj.SetOwner(user)
   - Another advantage of using constants is that Go can not detect runtime errors at compile-time but constants belong to compile time so errors can be detect
 - Constant rules
 - Constant Expressions, Typed vs Untyped Constants
+- IOTA
 
 ### number) rnt-example-point
 
@@ -230,6 +231,7 @@ obj.SetOwner(user)
 - [Inside the Go Playground](https://go.dev/blog/playground)
 - [The Go Programming Language Specification](https://go.dev/ref/spec)
 - [Golang fmt package](https://pkg.go.dev/fmt)
+- [IOTA](https://go.dev/ref/spec#Iota)
 - [rnt-example-point](https://github.com/)
 
 ## Future Updates
