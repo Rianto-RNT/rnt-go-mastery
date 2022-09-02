@@ -341,6 +341,7 @@ type Car struct {
   - There is no type-hierarchy in Go We can attach methods to newly deﬁned types.
   - Type safety. We must convert one type into another to perform operations with them.
   - Readability. When we deﬁned a new type let’s say type usd ﬂoat64 we know that new type represents the US Dollar, not only ﬂoats.
+- Alias Declarations
 
 ### number) rnt-example-point
 
@@ -355,8 +356,11 @@ type Car struct {
 - [The Go Programming Language Specification](https://go.dev/ref/spec)
 - [Golang fmt package](https://pkg.go.dev/fmt)
 - [IOTA](https://go.dev/ref/spec#Iota)
-- [rnt-example-point](https://github.com/)
 - [Golang math big package](https://pkg.go.dev/math/big)
+- [Go's Declaration Syntax](https://go.dev/blog/declaration-syntax)
+- [Packages fmt](https://pkg.go.dev/fmt#Printf)
+- [Go constants by Rob Pike](https://go.dev/blog/constants)
+- [rnt-example-point](https://github.com/)
 
 ## Future Updates
 
