@@ -267,6 +267,46 @@ type Car struct {
 }
 ```
 
+- Operations on Types Arithmetic and Assignment Operators
+  - An operator is a symbol of the programming language which is able to operate on values.
+  - In Go language, operators can be categorized based upon their different functionality in these categories:
+    - Arithmetic and Bitwise Operators: +, -, \*, /, %, &, |, ^, <<, >>
+    - Assignment Operators: +=, -=, \*=, /=, %=
+    - Increment and Decrement Statements: ++, -- Comparison
+      Operators:
+      ==,
+      !=, <, >, <=, >=
+    - Logical
+      Operators:
+      &&,
+      ||
+      , !
+    - Operators for Pointers (&) and Channels (<-)
+  - Arithmetic operators apply to numeric values and are used to perform common mathematical operations.
+  - There are the following arithmetic operators:
+
+```sh
++ (addition)
+- (subtraction)
+* (multiplication)
+/ (division)
+% (modulus or simply mod)
+```
+
+- Assignment Operators which are used to assign values to variables.
+- There are the following assignment operators:
+
+```sh
+= (simple assignment)
++= (increment assignment)
+-= (decrement assignment)
+*= (multiplication assignment)
+/= (division assignment)
+%= (modulus assignment)
+```
+
+- The "++" and "--" statements increment or decrement their operands by the untyped constant 1.
+
 ### number) rnt-example-point
 
 ## Articles
