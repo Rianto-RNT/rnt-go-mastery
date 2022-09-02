@@ -306,6 +306,28 @@ type Car struct {
 ```
 
 - The "++" and "--" statements increment or decrement their operands by the untyped constant 1.
+- Comparisson and Logical Operators
+
+  - Comparison operators compare two operands and yield an boolean value.
+  - There are the following comparison operators:
+
+```sh
+    == (equal)
+    != (not equal)
+    < (less)
+    <= (less or equal)
+    > (greater)
+    >= (greater or equal)
+```
+
+- Logical operators apply to boolean values and yield a result of the same type as the operands (bool).
+- There are 3 logical operators in Go:
+
+```sh
+ && (conditional and)
+ || (conditional or)
+ ! (not or logical negation)
+```
 
 ### number) rnt-example-point
 
