@@ -331,6 +331,7 @@ type Car struct {
 
 - Overflows
 - Converting Numeric Types
+- Converting numbers to strings and strings to number
 
 ### number) rnt-example-point
 
