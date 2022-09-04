@@ -1,0 +1,105 @@
+How to solve these coding exercises:
+
+Write your solution in Go Playground (https://play.golang.org) and then click on the Run button.
+
+If your solution is not correct, then try to understand the error messages, rewrite the solution and press the Run button again. Repeat this step until you get the correct solution.
+
+Each exercise should be solved in Go Playground in its own file. Save the URL of each file for future reference or recap. Alternatively, you can write the solution in VSCode and run the program in terminal using: go run main.go
+
+
+
+Coding Exercise #1
+
+Consider the following declarations: 
+
+var i int = 3
+var f float64 = 3.2
+Write a Go program that converts i to float64 and f to int.
+
+Print out the type and the value of the variables created after conversion.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Coding Exercise #2
+
+Consider the following declarations: 
+
+var i = 3
+var f = 3.2
+var s1, s2 = "3.14", "5"
+Write a Go program that converts:
+
+1. i to string (int to string)
+
+2. s2 to int (string to int)
+
+3. f to string (float64 to string)
+
+4. s1 to float64  (string to float64)
+
+6. Print the value and the type for each variable created after conversion.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Coding Exercise #3
+
+There are some errors in the following Go program. Try to identify the errors, change the code and run the program without errors.
+
+package main
+
+import "fmt"
+
+func main() {
+    x, y := 4, 5.1
+
+    z := x * y
+    fmt.Println(z)
+
+    a := 5
+    b := 6.2 * a
+    fmt.Println(b)
+
+}
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Coding Exercise #4
+
+Create a Go program that computes how long does it take for the Sunlight to reach the Earth if we know that the distance from the Sun to Earth is 149.6 million km and the speed of light  is 299,792,458 m / s
+
+The formula used is: time = distance / speed
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Coding Exercise #5
+
+Write the correct logical operator (&&, || , !) inside the expression so that result1 will be false and result2 will be true.
+
+Program source code: https://play.golang.org/p/74SCleChC20
+
+package main
+
+import "fmt"
+
+func main() {
+    x, y := 0.1, 5
+    var z float64
+
+    // Write the correct logical operator (&&, || , !) 
+    // inside the expression so that result1 will be false and result2 will be true.
+
+    result1 := x < z         int(x) != int(z)
+    fmt.Println(result1)
+    
+    result2 := y == 1 * 5        int(z) == 0
+    fmt.Println(result2)
+    
+}
+Are you stuck? Do you want to see the solution for this exercise? Click here.

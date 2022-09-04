@@ -1,0 +1,61 @@
+How to solve these coding exercises:
+
+Write your solution in Go Playground (https://play.golang.org) and then click on the Run button.
+
+If your solution is not correct, then try to understand the error messages, rewrite the solution and press the Run button again. Repeat this step until you get the correct solution.
+
+Each exercise should be solved in Go Playground in its own file. Save the URL of each file for future reference or recap.
+
+Alternatively, you can write the solution in VSCode and run the program in terminal using: go run main.go
+
+
+
+Coding Exercise #1
+
+Consider the following variable declarations: 
+
+x, y, z := 10, 15.5, "Gophers"
+score := []int{10, 20, 30}
+Using fmt.Printf():
+
+Print each variable using a specific verb for its type
+
+Print the string value enclosed by double quotes ("Gophers")
+
+Print each variable using the same verb
+
+Print the type of y and score
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Coding Exercise #2
+
+Consider the following constant declaration: const x float64 = 1.422349587101
+
+Write a Go program that prints the value of x with 4 decimal points.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Coding Exercise #3
+
+There are some errors in the following Go program. Try to identify the errors, change the code and run the program without errors.
+
+package main
+
+import "fmt"
+
+func main() {
+	shape := "circle"
+	radius := 3.2
+	const pi float64 = 3.14159
+	circumference := 2 * pi * radius
+
+	fmt.Printf("Shape: %q\n")
+	fmt.Printf("Circle's circumference with radius %d is %b\n", radius, circumference)
+	_ = shape
+}
+Are you stuck? Do you want to see the solution for this exercise? Click here.
