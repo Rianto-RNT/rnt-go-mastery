@@ -1,0 +1,64 @@
+How to solve these coding exercises:
+
+Write your solution in Go Playground (https://play.golang.org) and then click on the Run button.
+
+If your solution is not correct, then try to understand the error messages, rewrite the solution and press the Run button again. Repeat this step until you get the correct solution.
+
+Each exercise should be solved in Go Playground in its own file. Save the URL of each file for future reference or recap. Alternatively, you can write the solution in VSCode and run the program in terminal using: go run main.go
+
+Coding Exercise #1
+
+Declare a new type type called duration. Have the underlying type be an int.
+
+Declare a variable of the new type called hour using the var keyword
+
+In function main:
+
+print out the value of the variable hour
+
+print out the type of the variable hour
+
+assign 3600 to the variable hour using the  = operator
+
+print out the value of hour
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Coding Exercise #2
+
+There are some errors in the following Go program. Try to identify the errors, change the code and run the program without errors.
+
+package main
+
+import "fmt"
+
+type duration int
+
+func main() {
+    var hour duration = 3600
+    minute := 60
+    fmt.Println(hour != minute)
+}
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Coding Exercise #3
+
+Declare two defined types called mile and kilometer. Have the underlying type be an float64.
+
+Declare a constant called m2km equals 1.609  ( 1mile=1.609km)
+
+In function main:
+
+declare a variable called mileBerlinToParis of type mile with value 655.3
+
+declare a variable called kmBerlinToParis of type kilometer
+
+calculate the distance between Berlin and Paris in km by multiplying mileBerlinToParis and m2km. Assign the result to kmBerlinToParis
+
+print out the distance in km between Berlin and Paris
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
