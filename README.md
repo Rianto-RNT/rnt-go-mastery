@@ -347,6 +347,7 @@ type Car struct {
 
 - If Else Statements
 - Command line arguments (os.Args)
+- Simple if statements
 
 ### number) rnt-example-point
 
