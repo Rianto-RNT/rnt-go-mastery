@@ -346,6 +346,7 @@ type Car struct {
 ### 03) Program Control Flow
 
 - If Else Statements
+- Command line arguments (os.Args)
 
 ### number) rnt-example-point
 
