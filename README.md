@@ -360,6 +360,27 @@ type Car struct {
   - Most of the time labels are used to terminate outer enclosing loops
   - Goto
   - Switch statements
+  - Scope in Go
+  - Scope means visibility.
+  - The scope or the lifetime of a variable is the interval of time during which it exists as the program executes.
+  - A name cannot be declared again in the same scope (for example a function in the package scope), but it can be declared in another scope.
+  - In Go there are 3 scope:
+    - File Scope
+    - Package Scope
+    - Block (Local) Scope
+
+```sh
+package main
+
+import "fmt"  //file scope
+
+const done = false  //package scope
+
+func main() {
+      x := 10   //local (block) scope
+    fmt.Println(x)
+}
+```
 
 ### number) rnt-example-point
 
