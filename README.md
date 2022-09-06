@@ -351,6 +351,7 @@ type Car struct {
 - For loops
 - Where is the while loops in go?
 - For and continue statements
+- For and break statements
 
 ### number) rnt-example-point
 
