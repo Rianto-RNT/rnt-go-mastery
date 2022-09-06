@@ -350,6 +350,7 @@ type Car struct {
 - Simple if statements
 - For loops
 - Where is the while loops in go?
+- For and continue statements
 
 ### number) rnt-example-point
 
