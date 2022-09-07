@@ -382,6 +382,21 @@ func main() {
 }
 ```
 
+### 04) Arrays in Go
+
+- Intro to arrays
+- An array is a composite, indexable type that stores a collection of elements of same type.
+- An array has a ﬁxed length.
+- Every element in an array (or slice) must be of same type.
+- Go stores the elements of the array in contiguous memory locations and this way it’s very eﬃcient.
+- The length and the elements type determine the type of an array. The length belongs to array type and it’s determined at compile time.
+
+```sh
+accounts := [3]int{50, 60, 70}
+
+// The array called accounts that consists of 3 integers has it’s type [3]int
+```
+
 ### number) rnt-example-point
 
 ## Articles
