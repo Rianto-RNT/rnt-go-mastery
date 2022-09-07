@@ -399,6 +399,7 @@ accounts := [3]int{50, 60, 70}
 
 - Declaring Arrays
 - Array Operations
+- Arrays with Keyed Elements
 
 ### number) rnt-example-point
 
