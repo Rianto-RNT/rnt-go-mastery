@@ -1,0 +1,76 @@
+How to solve these coding exercises:
+
+Write your solution in Go Playground (https://play.golang.org) and then click on the Run button.
+
+If your solution is not correct, then try to understand the error messages, rewrite the solution and press the Run button again. Repeat this step until you get the correct solution.
+
+Each exercise should be solved in Go Playground in its own file. Save the URL of each file for future reference or recap.
+
+Alternatively, you can write the solution in VSCode and run the program in terminal using: go run main.go
+
+
+
+Coding Exercise #1
+
+Using a for loop and an if statement print out all the numbers between 1 and 50 that divisible by 7.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Coding Exercise #2
+
+Change the code from the previous exercise and use the continue statement to print out all the numbers divisible by 7 between 1 and 50.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Coding Exercise #3
+
+Change the code from the previous exercise and use the break statement to print out only the first 3 numbers divisible by 7 between 1 and 50.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Coding Exercise #4
+
+Using a for loop, an if statement and the logical and operator print out all the numbers between 1 and 500 that divisible both by 7 and 5.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Coding Exercise #5
+
+Using a for loop print out all the years from your birthday to current year.
+
+Use a variant of for loop where the post statement is moved inside the for block of code.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Coding Exercise #6
+
+Consider the following Go program: https://play.golang.org/p/r0xuO0bYkuY
+
+package main
+import "fmt"
+
+func main() {
+	age := -9
+	if age < 0 || age > 100 {
+		fmt.Println("Invalid Age")
+	} else if age <= 18 {
+		fmt.Println("You are minor!")
+	} else if age == 18 {
+		fmt.Println("Congratulations! You've just become major!")
+	} else {
+		fmt.Println("You are major!")
+	}
+}
+Change the code and use a switch statement instead of if statement.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
