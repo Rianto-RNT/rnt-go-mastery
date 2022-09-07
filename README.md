@@ -397,6 +397,8 @@ accounts := [3]int{50, 60, 70}
 // The array called accounts that consists of 3 integers has it’s type [3]int
 ```
 
+- Declaring Arrays
+
 ### number) rnt-example-point
 
 ## Articles
