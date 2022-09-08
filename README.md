@@ -418,6 +418,17 @@ accounts := [3]int{50, 60, 70}
 - Comparing slices
 - Appending to slice. Copying slices
 - Slice expressions
+- Slice internals_Backing Array and slice Header
+  - Slice backing (underlying) Array
+    - When creating a slice, behind the scenes Go creates a hidden array called Backing Array
+    - The Backing Array store the elements, not the slice
+    - Go implements a slice as a data structure called slice header
+    - Slice Header contains 3 fields:
+      - The Address of the backing array (pointer)
+      - The length of the slice. len() returns it.
+      - the capacity of the slice. cap() returns it
+    - Slice header is he runtime representation of a slice
+    - a nil slice doesn't a have backing array
 
 ### number) rnt-example-point
 
@@ -436,6 +447,8 @@ accounts := [3]int{50, 60, 70}
 - [Go's Declaration Syntax](https://go.dev/blog/declaration-syntax)
 - [Packages fmt](https://pkg.go.dev/fmt#Printf)
 - [Go constants by Rob Pike](https://go.dev/blog/constants)
+- [Go Slices: usage and internals](https://go.dev/blog/slices-intro)
+- [Arrays, slices (and strings): The mechanics of 'append'](https://go.dev/blog/slices)
 - [rnt-example-point](https://github.com/)
 
 ## Future Updates
