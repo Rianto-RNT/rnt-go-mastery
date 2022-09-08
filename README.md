@@ -415,6 +415,7 @@ accounts := [3]int{50, 60, 70}
   - Both a slice and an array can contain only the same type of elements;
   - We can create a keyed slice like a keyed array;
 - Declaring Slices and basic Slices Operations
+- Comparing slices
 
 ### number) rnt-example-point
 
