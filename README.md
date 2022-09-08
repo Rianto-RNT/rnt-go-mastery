@@ -417,6 +417,7 @@ accounts := [3]int{50, 60, 70}
 - Declaring Slices and basic Slices Operations
 - Comparing slices
 - Appending to slice. Copying slices
+- Slice expressions
 
 ### number) rnt-example-point
 
