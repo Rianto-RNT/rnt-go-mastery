@@ -401,6 +401,17 @@ accounts := [3]int{50, 60, 70}
 - Array Operations
 - Arrays with Keyed Elements
 
+### 05) Slices in Go
+
+- Slice - introduction
+
+  | Array | Slice |
+  | ----- | ----- |
+
+  | - Has a ﬁxed length deﬁned at compile time; | - Has a dynamic length (it can shrink orgrow); |
+  | - The length of an array is part of its type, deﬁned at compile time and cannot be changed; | - The length of a slice is not part of its type and it belongs to runtime; |
+  | - By default an uninitialized array has all elements equal to zero; | - An uninitialized slice is equal to nil (its zero value is nil). |
+
 ### number) rnt-example-point
 
 ## Articles
