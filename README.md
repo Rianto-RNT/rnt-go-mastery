@@ -404,13 +404,17 @@ accounts := [3]int{50, 60, 70}
 ### 05) Slices in Go
 
 - Slice - introduction
-
-  | Array | Slice |
-  | ----- | ----- |
-
-  | - Has a ﬁxed length deﬁned at compile time; | - Has a dynamic length (it can shrink orgrow); |
-  | - The length of an array is part of its type, deﬁned at compile time and cannot be changed; | - The length of a slice is not part of its type and it belongs to runtime; |
-  | - By default an uninitialized array has all elements equal to zero; | - An uninitialized slice is equal to nil (its zero value is nil). |
+  - Array
+    - Has a ﬁxed length deﬁned at compile time;
+    - The length of an array is part of its type, deﬁned at compile time and cannot be changed;
+    - By default an uninitialized array has all elements equal to zero;
+  - Slices
+    - Has a dynamic length (it can shrink or grow);
+    - The length of a slice is not part of its type and it belongs to runtime;
+    - An uninitialized slice is equal to nil (its zero value is nil).
+  - Both a slice and an array can contain only the same type of elements;
+  - We can create a keyed slice like a keyed array;
+- Declaring Slices and basic Slices Operations
 
 ### number) rnt-example-point
 
