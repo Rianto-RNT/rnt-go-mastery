@@ -416,6 +416,7 @@ accounts := [3]int{50, 60, 70}
   - We can create a keyed slice like a keyed array;
 - Declaring Slices and basic Slices Operations
 - Comparing slices
+- Appending to slice. Copying slices
 
 ### number) rnt-example-point
 
