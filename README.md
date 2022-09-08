@@ -429,6 +429,7 @@ accounts := [3]int{50, 60, 70}
       - the capacity of the slice. cap() returns it
     - Slice header is he runtime representation of a slice
     - a nil slice doesn't a have backing array
+- Append, length and, capacity in-depth
 
 ### number) rnt-example-point
 
