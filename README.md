@@ -441,6 +441,7 @@ accounts := [3]int{50, 60, 70}
   - The character encoding scheme ASCII which is a Unicode subset, comprises 128 code points.
   - A string is a series of bytes values. A string is a slice of bytes and any byte slice can be encoded in a string value.
   - The Go terminology for code points is runes . A rune represent a single unicode character. Rune 0x61 in hexadecimal represents the rune literal ‘a’.
+- Runes and Strings. Decoding strings byte by byte and rune by rune
 
 ### number) rnt-example-point
 
