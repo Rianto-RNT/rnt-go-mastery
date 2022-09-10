@@ -431,6 +431,16 @@ accounts := [3]int{50, 60, 70}
     - a nil slice doesn't a have backing array
 - Append, length and, capacity in-depth
 
+### 06) String, Runes, Bytes and UTF-8 in Go
+
+- Intro to string
+  - Go has two additional integer types called byte and rune that are aliases for uint8 and int32 data types. In Go, the byte and rune data types are used to distinguish characters from integer values.
+  - Golang doesn’t have a char data type. It uses byte and rune to represent character values.
+  - Characters or rune literals are expressed in Go by enclosing them in single quotes, as in 'x' or '\n' . Rune literals such as ‘a’ , ‘b’, ‘c’, ‘x’ or ‘\n’ are represented using Unicode Code Points. A code point is a numeric value that represents a rune literal.
+  - The character encoding scheme ASCII which is a Unicode subset, comprises 128 code points.
+  - A string is a series of bytes values. A string is a slice of bytes and any byte slice can be encoded in a string value.
+  - The Go terminology for code points is runes . A rune represent a single unicode character. Rune 0x61 in hexadecimal represents the rune literal ‘a’.
+
 ### number) rnt-example-point
 
 ## Articles
@@ -450,6 +460,7 @@ accounts := [3]int{50, 60, 70}
 - [Go constants by Rob Pike](https://go.dev/blog/constants)
 - [Go Slices: usage and internals](https://go.dev/blog/slices-intro)
 - [Arrays, slices (and strings): The mechanics of 'append'](https://go.dev/blog/slices)
+- [Rapid table (ASCII)](https://www.rapidtables.com/convert/number/ascii-hex-bin-dec-converter.html)
 - [rnt-example-point](https://github.com/)
 
 ## Future Updates
