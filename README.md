@@ -434,6 +434,7 @@ accounts := [3]int{50, 60, 70}
 ### 06) String, Runes, Bytes and UTF-8 in Go
 
 - Intro to string
+- Runes, bytes and unicode code points
   - Go has two additional integer types called byte and rune that are aliases for uint8 and int32 data types. In Go, the byte and rune data types are used to distinguish characters from integer values.
   - Golang doesn’t have a char data type. It uses byte and rune to represent character values.
   - Characters or rune literals are expressed in Go by enclosing them in single quotes, as in 'x' or '\n' . Rune literals such as ‘a’ , ‘b’, ‘c’, ‘x’ or ‘\n’ are represented using Unicode Code Points. A code point is a numeric value that represents a rune literal.
