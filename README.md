@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-<h4 align="center"> Learn golang from beginner to advenced <a href="https://go.dev/" target="_blank">Go</a>.</h4>
+<h4 align="center"> Learn golang from beginner to advanced <a href="https://go.dev/" target="_blank">Go</a>.</h4>
 
  <p align="center">
  <a href="#deployed-version">Demo</a> •
