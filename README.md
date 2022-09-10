@@ -444,6 +444,7 @@ accounts := [3]int{50, 60, 70}
 - Runes and Strings. Decoding strings byte by byte and rune by rune
 - String length in bytes and runes
 - Slicing Strings
+- Strings Package - Contains, ContainsAny, Count, ToLower, ToUpper, EqualFold
 
 ### number) rnt-example-point
 
@@ -465,6 +466,7 @@ accounts := [3]int{50, 60, 70}
 - [Go Slices: usage and internals](https://go.dev/blog/slices-intro)
 - [Arrays, slices (and strings): The mechanics of 'append'](https://go.dev/blog/slices)
 - [Rapid table (ASCII)](https://www.rapidtables.com/convert/number/ascii-hex-bin-dec-converter.html)
+- [Strings, bytes, runes and characters in Go](https://go.dev/blog/strings)
 - [rnt-example-point](https://github.com/)
 
 ## Future Updates
