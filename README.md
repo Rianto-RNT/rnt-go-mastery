@@ -459,6 +459,7 @@ accounts := [3]int{50, 60, 70}
   - Even if it’s possible, it’s not recommended to use a ﬂoat as a key. A ﬂoat has some comparable issues.
   - We can not compare a map to another map. We can only compare a map to nil.
   - Maps are unordered data structures in Go.
+- Declaring Maps, working with Maps
 
 ### number) rnt-example-point
 
