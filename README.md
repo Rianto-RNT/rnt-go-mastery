@@ -461,6 +461,7 @@ accounts := [3]int{50, 60, 70}
   - Maps are unordered data structures in Go.
 - Declaring Maps, working with Maps
 - Comparing Maps
+- Map header. cloning maps
 
 ### number) rnt-example-point
 
