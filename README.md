@@ -466,6 +466,7 @@ accounts := [3]int{50, 60, 70}
 ### 08) Working with files in Go
 
 - Open, close, rename, move, and remove files
+- Operation on file - Coding Program
 
 ### number) rnt-example-point
 
