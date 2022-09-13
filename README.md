@@ -484,6 +484,7 @@ accounts := [3]int{50, 60, 70}
 - [Arrays, slices (and strings): The mechanics of 'append'](https://go.dev/blog/slices)
 - [Rapid table (ASCII)](https://www.rapidtables.com/convert/number/ascii-hex-bin-dec-converter.html)
 - [Strings, bytes, runes and characters in Go](https://go.dev/blog/strings)
+- [Go maps in action](https://go.dev/blog/maps)
 - [rnt-example-point](https://github.com/)
 
 ## Future Updates
