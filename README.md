@@ -467,6 +467,7 @@ accounts := [3]int{50, 60, 70}
 
 - Open, close, rename, move, and remove files
 - Operation on file - Coding Program
+- Writing bytes to file - os.Write and ioutil.WriteFile
 
 ### number) rnt-example-point
 
