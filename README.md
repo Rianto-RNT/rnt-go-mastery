@@ -463,6 +463,10 @@ accounts := [3]int{50, 60, 70}
 - Comparing Maps
 - Map header. cloning maps
 
+### 08) Working with files in Go
+
+- Open, close, rename, move, and remove files
+
 ### number) rnt-example-point
 
 ## Articles
