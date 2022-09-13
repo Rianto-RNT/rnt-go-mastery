@@ -460,6 +460,7 @@ accounts := [3]int{50, 60, 70}
   - We can not compare a map to another map. We can only compare a map to nil.
   - Maps are unordered data structures in Go.
 - Declaring Maps, working with Maps
+- Comparing Maps
 
 ### number) rnt-example-point
 
