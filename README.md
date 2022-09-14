@@ -468,6 +468,7 @@ accounts := [3]int{50, 60, 70}
 - Open, close, rename, move, and remove files
 - Operation on file - Coding Program
 - Writing bytes to file - os.Write and ioutil.WriteFile
+- Writing to files using a buffered writer(bufio package)
 
 ### number) rnt-example-point
 
