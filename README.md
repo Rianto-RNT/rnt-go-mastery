@@ -471,6 +471,7 @@ accounts := [3]int{50, 60, 70}
 - Writing to files using a buffered writer(bufio package)
 - Reading n bytes from a file. reading a file using a buffered reader
 - Reading a file line by line using a scanner
+- Scanning for user input. reading from Stdin
 
 ### number) rnt-example-point
 
