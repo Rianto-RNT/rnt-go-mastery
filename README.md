@@ -469,6 +469,7 @@ accounts := [3]int{50, 60, 70}
 - Operation on file - Coding Program
 - Writing bytes to file - os.Write and ioutil.WriteFile
 - Writing to files using a buffered writer(bufio package)
+- Reading n bytes from a file. reading a file using a buffered reader
 
 ### number) rnt-example-point
 
