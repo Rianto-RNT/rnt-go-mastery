@@ -502,6 +502,8 @@ func (receiver) name(parameters) (returns) {
 }
 ```
 
+- Function parameters, arguments and return values
+
 ### number) rnt-example-point
 
 ## Articles
