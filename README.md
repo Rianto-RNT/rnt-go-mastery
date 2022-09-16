@@ -483,6 +483,7 @@ accounts := [3]int{50, 60, 70}
 - Creating struct
 - Retriving an upating struct fields
 - Anonymous struct and anonymous struct fields
+- Embedded structs
 
 ### number) rnt-example-point
 
