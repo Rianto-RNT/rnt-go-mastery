@@ -485,6 +485,23 @@ accounts := [3]int{50, 60, 70}
 - Anonymous struct and anonymous struct fields
 - Embedded structs
 
+### 10) functions in Go
+
+- Intro to functions
+  - A function is a small piece of code that is dedicated to a perform a particular task based on some input values.
+  - Go recommends writing function names in simple word or camelCase.
+  - Within the same package function names must be unique!
+  - One of Go's features is that functions and methods can return multiple values.
+  - Go doesn’t support function overloading.
+  - main() and int() are predeﬁned function names.
+  - Syntax:
+
+```sh
+func (receiver) name(parameters) (returns) {
+//code -> function body here
+}
+```
+
 ### number) rnt-example-point
 
 ## Articles
