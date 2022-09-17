@@ -504,6 +504,7 @@ func (receiver) name(parameters) (returns) {
 
 - Function parameters, arguments and return values
 - Variadic functions
+- Defer statement
 
 ### number) rnt-example-point
 
