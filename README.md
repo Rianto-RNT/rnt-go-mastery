@@ -505,6 +505,7 @@ func (receiver) name(parameters) (returns) {
 - Function parameters, arguments and return values
 - Variadic functions
 - Defer statement
+- Anonymous function
 
 ### number) rnt-example-point
 
@@ -528,6 +529,7 @@ func (receiver) name(parameters) (returns) {
 - [Rapid table (ASCII)](https://www.rapidtables.com/convert/number/ascii-hex-bin-dec-converter.html)
 - [Strings, bytes, runes and characters in Go](https://go.dev/blog/strings)
 - [Go maps in action](https://go.dev/blog/maps)
+- [There is no pass-by-reference in Go](https://dave.cheney.net/2017/04/29/there-is-no-pass-by-reference-in-go)
 - [rnt-example-point](https://github.com/)
 
 ## Future Updates
