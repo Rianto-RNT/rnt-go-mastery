@@ -512,7 +512,7 @@ func (receiver) name(parameters) (returns) {
 - Intro to Pointer
 - Computer Memory and Pointers
   - The Computer Memory (RAM) can be thought of as a sequence of boxes or cells, placed one after another in a line. Each cell is labeled with a unique number, which increments sequentially; this number is the address of the cell or its memory location.
-- [![](rnt-example-imageUrl)](https://github.com/Rianto-RNT)
+- [![](https://github.com/Rianto-RNT/rnt-go-mastery/blob/development/assets/go-pointers-image.png)](https://github.com/Rianto-RNT)
   - Each cell holds a single value. Everything the CPU does is fetching and storing values into memory cells.
   - What is a variable?
     - A variable is just a convenient, alphanumeric nickname or label for a memory location.
@@ -522,7 +522,7 @@ func (receiver) name(parameters) (returns) {
     - A pointer is a variable that stores the memory address of another variable.
     - The pointer points to memory address of a variable, just as a variable represents the memory address of a value.
     - A pointer value is the address of a variable or nil if it hasn’t been initialized yet.
-- [![](rnt-example-imageUrl)](https://github.com/Rianto-RNT)
+- [![](https://github.com/Rianto-RNT/rnt-go-mastery/blob/development/assets/go-pointers-image-2.png)](https://github.com/Rianto-RNT)
   - In the above image, variable b has value 201 and is stored at memory address 0xAA01BB10. The variable a holds the address of b. Now a is said to point to b or a is a pointer to b.
   - Pointers have the power to mutate or change the data they are pointing to.
   - Unlike C, Go has no pointer arithmetic.
