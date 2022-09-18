@@ -526,7 +526,8 @@ func (receiver) name(parameters) (returns) {
   - In the above image, variable b has value 201 and is stored at memory address 0xAA01BB10. The variable a holds the address of b. Now a is said to point to b or a is a pointer to b.
   - Pointers have the power to mutate or change the data they are pointing to.
   - Unlike C, Go has no pointer arithmetic.
-    Declaring Pointers. Address of and dereferencing operators
+- Declaring Pointers. Address of and dereferencing operators
+- Pointer to pointer. comparing pointers
 
 ### number) rnt-example-point
 
