@@ -529,6 +529,7 @@ func (receiver) name(parameters) (returns) {
 - Declaring Pointers. Address of and dereferencing operators
 - Pointer to pointer. comparing pointers
 - Passing and returning pointers to functions fom functions
+- Passing pointers to functions. Passing by value vs. passing by pointer
 
 ### number) rnt-example-point
 
