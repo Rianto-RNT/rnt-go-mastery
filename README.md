@@ -528,6 +528,7 @@ func (receiver) name(parameters) (returns) {
   - Unlike C, Go has no pointer arithmetic.
 - Declaring Pointers. Address of and dereferencing operators
 - Pointer to pointer. comparing pointers
+- Passing and returning pointers to functions fom functions
 
 ### number) rnt-example-point
 
