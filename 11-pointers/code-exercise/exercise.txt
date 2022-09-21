@@ -1,0 +1,47 @@
+How to solve these coding exercises:
+
+Write your solution in Go Playground (https://play.golang.org) and then click on the Run button.
+
+If your solution is not correct, then try to understand the error messages, rewrite the solution and press the Run button again. Repeat this step until you get the correct solution.
+
+Each exercise should be solved in Go Playground in its own file. Save the URL of each file for future reference or recap.
+
+Alternatively, you can write the solution in VSCode and run the program in terminal using: go run main.go
+
+
+
+Coding Exercise #1
+
+Consider the following variable declaration x := 10.10
+
+1. Print out the address of x
+
+2. Declare a pointer called ptr that stores the address of x.
+
+3. Print out the type and the value of ptr.
+
+4. Print the address of the pointer and the value of x though the pointer (use the dereferencing operator).
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Coding Exercise #2
+
+Consider the following variable declarations: 
+
+x, y := 10, 2
+ptrx, ptry := &x, &y
+Declare a new variable called z and initialize the variable by dividing x by y through the pointers.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Coding Exercise #3
+
+Consider the following variable declaration:x, y := 5.5, 8.8
+
+Write a function that swaps the values of x and y. After calling the function x will be 8.8 and y will 5.5
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
