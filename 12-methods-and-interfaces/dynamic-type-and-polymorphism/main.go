@@ -84,4 +84,14 @@ func main() {
 		fmt.Printf("Ball Volume:%v\n", ball.volume())
 	}
 
+	//** TYPE SWITCHES **//
+
+	// it permits several type assertions in series
+	switch value := s.(type) {
+	case circle:
+		fmt.Printf("%#v has circle type\n", value)
+	case rectangle:
+		fmt.Printf("%#v has rectangle type\n", value)
+
+	}
 }
