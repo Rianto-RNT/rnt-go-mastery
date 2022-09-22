@@ -539,6 +539,7 @@ func (receiver) name(parameters) (returns) {
 - Implementing Interfaces
 - Interface dynamic type and polymorphism
 - Embedded interfaces
+- Empty interface
 
 ## Articles
 
