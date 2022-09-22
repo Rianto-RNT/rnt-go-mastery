@@ -534,6 +534,7 @@ func (receiver) name(parameters) (returns) {
 ### 12) Methods and Interfaces in Go
 
 - Reciever functions(Methods)
+- Methods with a pointer reciever
 
 ## Articles
 
