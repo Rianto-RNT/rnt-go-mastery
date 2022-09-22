@@ -1,3 +1,8 @@
+/////////////////////////////////
+// Implementing Interfaces in Go
+// Go Playground: https://play.golang.org/p/SMjFrOYL5f3
+/////////////////////////////////
+
 package main
 
 import (
@@ -5,59 +10,61 @@ import (
 	"math"
 )
 
-type shape interface{
-	area() float64
-	parameter() float64
+// declaring an interface type called shape
+// an interface contains only the signatures of the methods, but not their implementation
+type shape interface {
+    area() float64
+    perimeter() float64
 }
+
+// declaring 2 struct types that represent geometrical shapes: rectangle and circle
 
 type rectangle struct {
-	width, height float64
+    width, height float64
 }
-
 type circle struct {
-	radius float64
+    radius float64
 }
 
+// method that calculates circle's area
 func (c circle) area() float64 {
-	return math.Pi * math.Pow(c.radius, 2)
+    return math.Pi * math.Pow(c.radius, 2)
 }
 
-func (c circle) parameter() float64{
-	return 2 * math.Pi * c.radius
+// method that calculates rectangle's area
+func (r rectangle) area() float64 {
+    return r.height * r.width
 }
 
-func (r rectangle) area() float64{
-	return r.height * r.width
+// method that calculates circle's perimeter
+func (c circle) perimeter() float64 {
+    return 2 * math.Pi * c.radius
 }
 
-func (r rectangle) parameter() float64{
-	return 2 * (r.height * r.width)
+// method that calculates rectangle's perimeter
+func (r rectangle) perimeter() float64 {
+    return 2 * (r.height + r.width)
 }
 
-// func printCircle(c circle) {
-// 	fmt.Println("Shape:", c)
-// 	fmt.Println("Area:", c.area())
-// 	fmt.Println("Parameter:", c.parameter())
-// }
-
-// func printRectangle(r rectangle){
-// 	fmt.Println("Shape:", r)
-// 	fmt.Println("Area:", r.area())
-// 	fmt.Println("Parameter:", r.parameter())
-// }
-
+// any type that implements the interface is also of type of the interface
+// rectangle and circle values are also of type shape
 func print(s shape) {
-	fmt.Printf("Shape: %#v\n", s)
-	fmt.Printf("Area: %v\n", s.area())
-	fmt.Printf("Parameter: %v\n", s.parameter())
+    fmt.Printf("Shape: %#v\n", s)
+    fmt.Printf("Area: %v\n", s.area())
+    fmt.Printf("Perimeter: %v\n", s.perimeter())
 }
 
 func main() {
-	c1 := circle{radius: 5.}
-	r1 := rectangle{width: 3., height: 2.1}
 
-	// printCircle(c1)
-	// printRectangle(r1)
-	print(c1)
-	print(r1)
+    // declaring a circle and a rectangle values
+    c1 := circle{radius: 5}
+    r1 := rectangle{width: 3, height: 2}
+
+    // circle and rectangle both implements the geometry interface  because they implement all methods of the interface
+    // an interface is implicitly implemented in Go
+    print(c1)
+    print(r1)
+
+    a := c1.area()
+    fmt.Println("Circle Area:", a)
 }
