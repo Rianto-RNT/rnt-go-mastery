@@ -537,6 +537,7 @@ func (receiver) name(parameters) (returns) {
 - Methods with a pointer reciever
 - intro to Interfaces
 - Implementing Interfaces
+- Interface dynamic type and polymorphism
 
 ## Articles
 
