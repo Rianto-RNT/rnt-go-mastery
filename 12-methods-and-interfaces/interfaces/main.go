@@ -5,6 +5,11 @@ import (
 	"math"
 )
 
+type shape interface{
+	area() float64
+	parameter() float64
+}
+
 type rectangle struct {
 	width, height float64
 }
@@ -29,22 +34,30 @@ func (r rectangle) parameter() float64{
 	return 2 * (r.height * r.width)
 }
 
-func printCircle(c circle) {
-	fmt.Println("Shape:", c)
-	fmt.Println("Area:", c.area())
-	fmt.Println("Parameter:", c.parameter())
-}
+// func printCircle(c circle) {
+// 	fmt.Println("Shape:", c)
+// 	fmt.Println("Area:", c.area())
+// 	fmt.Println("Parameter:", c.parameter())
+// }
 
-func printRectangle(r rectangle){
-	fmt.Println("Shape:", r)
-	fmt.Println("Area:", r.area())
-	fmt.Println("Parameter:", r.parameter())
+// func printRectangle(r rectangle){
+// 	fmt.Println("Shape:", r)
+// 	fmt.Println("Area:", r.area())
+// 	fmt.Println("Parameter:", r.parameter())
+// }
+
+func print(s shape) {
+	fmt.Printf("Shape: %#v\n", s)
+	fmt.Printf("Area: %v\n", s.area())
+	fmt.Printf("Parameter: %v\n", s.parameter())
 }
 
 func main() {
 	c1 := circle{radius: 5.}
 	r1 := rectangle{width: 3., height: 2.1}
 
-	printCircle(c1)
-	printRectangle(r1)
+	// printCircle(c1)
+	// printRectangle(r1)
+	print(c1)
+	print(r1)
 }
