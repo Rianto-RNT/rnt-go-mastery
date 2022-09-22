@@ -46,6 +46,6 @@ func measure(g geometry) (float64, float64) {
 func main() {
 	c := cube{edge: 2}
 	a, v := measure(c)
-	fmt.Printf("Area: %v Volume: %v\n", a, v)
+	fmt.Printf("Area: %v, Volume: %v\n", a, v)
 
 }
