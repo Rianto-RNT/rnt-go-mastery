@@ -538,7 +538,7 @@ func (receiver) name(parameters) (returns) {
 - intro to Interfaces
 - Implementing Interfaces
 - Interface dynamic type and polymorphism
-- Type assertions and type switches
+- Embedded interfaces
 
 ## Articles
 
