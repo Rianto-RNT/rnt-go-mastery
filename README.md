@@ -531,7 +531,7 @@ func (receiver) name(parameters) (returns) {
 - Passing and returning pointers to functions fom functions
 - Passing pointers to functions. Passing by value vs. passing by pointer
 
-### 12) Methods and Interfaces in Go
+### 12) Methods and Interfaces in Go (OOP)
 
 - Reciever functions(Methods)
 - Methods with a pointer reciever
