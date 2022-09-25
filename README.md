@@ -541,6 +541,13 @@ func (receiver) name(parameters) (returns) {
 - Embedded interfaces
 - Empty interface
 
+### 13) Concurrency in Go
+
+- Concurrency vs Parallelism
+  - Concurrency means loading more goroutines at a time. If one goroutine blocks, another one is picked up and started. On single core CPU you can run ONLY concurrent applications but they are not run in parallel.
+  - Parallelism means multiple goroutines executed at the same time. It requires multiple CPUs.
+  - Concurrency means independently executing processes or dealing with multiple things at once, while parallelism is the simultaneous execution of processes and require multiple core CPUs.
+
 ## Articles
 
 - [The go playground](https://go.dev/play/)
@@ -562,6 +569,7 @@ func (receiver) name(parameters) (returns) {
 - [Strings, bytes, runes and characters in Go](https://go.dev/blog/strings)
 - [Go maps in action](https://go.dev/blog/maps)
 - [There is no pass-by-reference in Go](https://dave.cheney.net/2017/04/29/there-is-no-pass-by-reference-in-go)
+- [Go release Hhstory](https://go.dev/doc/devel/release)
 - [rnt-example-point](https://github.com/)
 
 ## Future Updates
