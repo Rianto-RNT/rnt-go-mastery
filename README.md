@@ -555,6 +555,7 @@ func (receiver) name(parameters) (returns) {
   - Scheduling a goroutine is much cheaper than scheduling a thread.
   - OS threads are scheduled by the OS kernel, but goroutines are scheduled by its own Go Scheduler using a technique called m:n scheduling, because it multiplexes (or schedules) m goroutines on n OS threads.
   - Goroutines have no identity. There is no notion of identity that is accessible to the programmer.
+- Spawning goroutines. the go keyword
 
 ## Articles
 
