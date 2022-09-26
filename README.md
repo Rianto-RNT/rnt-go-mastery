@@ -558,6 +558,7 @@ func (receiver) name(parameters) (returns) {
 - Spawning goroutines. the go keyword
 - WaitGroups
 - Project URL Checker and Page Downloader
+- Project Refactoring using WaitGroups (Url Checkerand Page Downloader)
 
 ## Articles
 
