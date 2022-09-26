@@ -557,6 +557,7 @@ func (receiver) name(parameters) (returns) {
   - Goroutines have no identity. There is no notion of identity that is accessible to the programmer.
 - Spawning goroutines. the go keyword
 - WaitGroups
+- Project URL Checker and Page Downloader
 
 ## Articles
 
