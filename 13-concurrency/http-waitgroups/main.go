@@ -11,46 +11,60 @@ import (
 )
 
 func checkAndSaveBody(url string, wg *sync.WaitGroup) {
-	resp, err := http.Get(url)
 
+	resp, err := http.Get(url)
 	if err != nil {
-		fmt.Println(err)
 		fmt.Printf("%s is DOWN!\n", url)
 	} else {
-		defer resp.Body.Close()
-		fmt.Printf("%s -> Status code: %d \n", url, resp.StatusCode)
-		if resp.StatusCode == 200 {
 
-			bodyByte, err := ioutil.ReadAll(resp.Body)
+		fmt.Printf("Status Code: %d  ", resp.StatusCode)
+		if resp.StatusCode == 200 {
+			bodyBytes, err := ioutil.ReadAll(resp.Body)
+
 			file := strings.Split(url, "//")[1]
 			file += ".txt"
 
-			fmt.Printf("Writing res body to %s\n", file)
-
-			err = ioutil.WriteFile(file, bodyByte, 0664)
-
+			fmt.Printf("Writing response Body to %s\n", file)
+			err = ioutil.WriteFile(file, bodyBytes, 0664)
 			if err != nil {
 				log.Fatal(err)
 			}
 		}
 	}
-
+	// 3. Inside each goroutine, call wg.Done() to indicate to the WaitGroup that the goroutine has finished executing.
 	wg.Done()
 }
 
 func main() {
-	urls := []string{"https://medium.com", "https://google.com", "https://bing.com"}
 
+	urls := []string{"https://www.golang.org", "https://www.google1.com", "https://www.medium.com"}
+
+	// 1.
+	// Create a new instance of  sync.WaitGroup
 	var wg sync.WaitGroup
 
-	wg.Add(len(urls))
+	// 2.
+	// call the waitgroup.Add(n) method just before attempting to spawn the goroutine.
+	wg.Add(len(urls)) //  n is len(urls) - the number of goroutines to wait for
 
 	for _, url := range urls {
+		// 4.
+		// Launch the goroutines
 		go checkAndSaveBody(url, &wg)
-		fmt.Println(strings.Repeat("#", 20))
 	}
 
 	fmt.Println("No. of Goroutines:", runtime.NumGoroutine())
 
+	// 5.
+	// Finally, call waitgroup.Wait() to block the execution of main() until the goroutines
+	// in the waitgroup have successfully completed.
 	wg.Wait()
 }
+
+// Run the program: go run main.go
+
+//** EXPECTED OUTPUT: **//
+// No. of Goroutines: 4
+// https://www.google1.com is DOWN!
+// Status Code: 200  Writing response Body to www.golang.org.txt
+// Status Code: 200  Writing response Body to www.medium.com.txt
