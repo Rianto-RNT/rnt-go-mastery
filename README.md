@@ -559,6 +559,7 @@ func (receiver) name(parameters) (returns) {
 - WaitGroups
 - Project URL Checker and Page Downloader
 - Project Refactoring using WaitGroups (Url Checkerand Page Downloader)
+- Data race
 
 ## Articles
 
