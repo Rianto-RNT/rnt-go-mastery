@@ -560,6 +560,13 @@ func (receiver) name(parameters) (returns) {
 - Project URL Checker and Page Downloader
 - Project Refactoring using WaitGroups (Url Checkerand Page Downloader)
 - Data race
+- Go Race detecor
+
+```sh
+$ go run -race main.go
+```
+
+-
 
 ## Articles
 
