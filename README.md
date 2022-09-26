@@ -566,7 +566,7 @@ func (receiver) name(parameters) (returns) {
 $ go run -race main.go
 ```
 
--
+- Mutexes
 
 ## Articles
 
