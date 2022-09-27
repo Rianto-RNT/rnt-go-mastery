@@ -569,6 +569,7 @@ $ go run -race main.go
 - Mutexes
 - Intro to Channels
 - Goroutines and Channels
+- Gorotines, channels and anonymous function
 
 ## Articles
 
