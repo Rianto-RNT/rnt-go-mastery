@@ -574,6 +574,7 @@ $ go run -race main.go
 - Project refactoring using channels and anonymous function
 - Unbuffered channels
 - Buffered channels
+- Select statement
 
 ## Articles
 
@@ -597,6 +598,8 @@ $ go run -race main.go
 - [Go maps in action](https://go.dev/blog/maps)
 - [There is no pass-by-reference in Go](https://dave.cheney.net/2017/04/29/there-is-no-pass-by-reference-in-go)
 - [Go release Hhstory](https://go.dev/doc/devel/release)
+- [Concurrency is not parallelism by Rob Pike](https://blog.golang.org/concurrency-is-not-parallelism)
+- [Google Announcement Hey Ho Lets Go](https://opensource.googleblog.com/2009/11/hey-ho-lets-go.html)
 - [rnt-example-point](https://github.com/)
 
 ## Future Updates
