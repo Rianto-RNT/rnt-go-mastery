@@ -573,6 +573,7 @@ $ go run -race main.go
 - Project Refactoring using channels - URL Checker and page downloader
 - Project refactoring using channels and anonymous function
 - Unbuffered channels
+- Buffered channels
 
 ## Articles
 
