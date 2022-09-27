@@ -570,6 +570,7 @@ $ go run -race main.go
 - Intro to Channels
 - Goroutines and Channels
 - Gorotines, channels and anonymous function
+- Project Refactoring using channels - URL Checker and page downloader
 
 ## Articles
 
