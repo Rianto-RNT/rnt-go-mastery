@@ -567,6 +567,7 @@ $ go run -race main.go
 ```
 
 - Mutexes
+- Intro to Channels
 
 ## Articles
 
