@@ -1,0 +1,62 @@
+
+                <html>
+                <head>
+                <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+                <title>190 Coding Challenge Exercises - Goroutines, WaitGroups and Mutexes</title>
+                </head>
+                <body>
+                <div class="container">
+                <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <p class="lead"><p><strong>How to solve these coding exercises:</strong></p><ul><li><p>Write your solution in <strong>VSCode</strong>&nbsp; or in your preferred Go IDE&nbsp;and then run the program in terminal using: <strong>go run main.go</strong></p></li><li><p>If your solution is not correct, then try to understand the error messages, rewrite the solution and run the program again. Repeat this step until you get the correct solution.</p></li><li><p>Each exercise should be solved in <strong>its own file</strong>. Save the file for future reference or recap.</p></li><li><p><strong>Note:</strong> <em>Some exercises cannot solved in Go Playground </em>due to its limitation. It's working in a protected, limited environment.</p></li></ul><p><br></p><p><strong>Coding Exercise #1</strong></p><p>There is an error in the following <a href="https://play.golang.org/p/EfP3dBZvp5f" rel="noopener noreferrer" target="_blank">Go Program</a>. Even though the goroutine is correctly launched, it doesn't print any message.</p><pre class="prettyprint linenums"> package main
+
+import (
+    "fmt"
+)
+
+func sayHello(n string) {
+    fmt.Printf("Hello, %s!\n", n)
+}
+
+func main() {
+    go sayHello("Mr. Wick")
+}</pre><p>Your task is to synchronize <strong>main</strong> and the goroutine using <strong>WaitGroups</strong>. The program should print the string received as argument by<strong> sayHello()</strong>.</p><p>Are you stuck? Do you want to see the solution for this exercise? Click <a href="https://play.golang.org/p/UfQrVmlwrvS" rel="noopener noreferrer" target="_blank">here</a>.</p><p><br></p><p><strong>Coding Exercise #2</strong></p><p><strong>1.</strong> Create a function called <strong>sum()</strong> that calculates and then prints out&nbsp; the sum of 2 float numbers it receives as arguments.</p><p>Format the result with 2 decimal points.</p><p><strong>2. </strong>From main launch 3 goroutines that execute the function you have just created (sum) </p><p><strong>3. </strong>Synchronize the goroutines and the main function using <strong>WaitGroups</strong></p><p>Are you stuck? Do you want to see the solution for this exercise? Click <a href="https://play.golang.org/p/2ArrVTSj55g" rel="noopener noreferrer" target="_blank">here</a>.</p><p><br></p><p><strong>Coding Exercise #3</strong></p><p><strong>1. </strong>Create an anonymous function that calculates and prints out the square root of a float value it receives as argument.</p><p><strong>2. </strong>Launch the function as a goroutine and synchronize it with main using WaitGroups</p><p><strong>Note: </strong>You calculate the square root of a float named <strong>f</strong> using the <strong>Sqrt() </strong>function from <strong>math package</strong> like this:</p><pre class="prettyprint linenums">x :=&nbsp;math.Sqrt(f)
+fmt.Println(x)</pre><p>Are you stuck? Do you want to see the solution for this exercise? Click <a href="https://play.golang.org/p/4Z_oVsvLyk1" rel="noopener noreferrer" target="_blank">here</a>.</p><p><br></p><p><strong>Coding Exercise #4</strong></p><p>Change the code from Exercise #3 and <strong>launch 50 goroutines</strong> that calculate concurrently the square root of all the numbers between 100 and 149 (both included).</p><p>Are you stuck? Do you want to see the solution for this exercise? Click <a href="https://play.golang.org/p/W0bUu1wD9Df" rel="noopener noreferrer" target="_blank">here</a>.</p><p><br></p><p><strong>Coding Exercise #5</strong></p><p>You work at a <a href="https://play.golang.org/p/4CeKyLTrxyb" rel="noopener noreferrer" target="_blank">Banking Application </a>and have created 2 functions:&nbsp;one that deposits a value into an account and another that withdraws a value from the account.</p><p>You want to simulate many deposits and withdraws that take place simultaneously&nbsp; and start some goroutines.</p><p>During testing you notice that a date race occurred.</p><p><strong>Your task is to change the code in order to protect the account's balance from simultaneously writing using a mutex.</strong></p><p><a href="https://play.golang.org/p/4CeKyLTrxyb" rel="noopener noreferrer" target="_blank">This is the initial program</a> that has errors:</p><pre class="prettyprint linenums">package main
+
+import (
+    "fmt"
+    "sync"
+)
+
+func deposit(b *int, n int, wg *sync.WaitGroup) {
+    *b += n
+    wg.Done()
+}
+
+func withdraw(b *int, n int, wg *sync.WaitGroup) {
+    *b -= n
+    wg.Done()
+}
+
+func main() {
+    var wg sync.WaitGroup
+
+    wg.Add(200)
+
+    balance := 100
+
+    for i := 0; i &lt; 100; i++ {
+        go deposit(&amp;balance, i, &amp;wg)
+        go withdraw(&amp;balance, i, &amp;wg)
+    }
+    wg.Wait()
+
+    fmt.Println("Final balance value:", balance)
+}</pre><p>Are you stuck? Do you want to see the solution for this exercise? Click <a href="https://play.golang.org/p/R6Cn4td3Z_R" rel="noopener noreferrer" target="_blank">here</a>.</p></p>
+                </div>
+                </div>
+                </div>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+                </body>
+                </html>
+                
