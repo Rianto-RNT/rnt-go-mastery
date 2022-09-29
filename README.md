@@ -606,6 +606,8 @@ $ go run -race main.go
     - executable packages that generate executable ﬁles which can be run. The name of an executable package is predeﬁned and is called main.
     - non-executable packages (libraries or dependencies) that are used by other packages and can have any name. They can not be executed, only imported.
 
+- Creating a packages
+
 ## Articles
 
 - [The go playground](https://go.dev/play/)
@@ -630,6 +632,7 @@ $ go run -race main.go
 - [Go release Hhstory](https://go.dev/doc/devel/release)
 - [Concurrency is not parallelism by Rob Pike](https://blog.golang.org/concurrency-is-not-parallelism)
 - [Google Announcement Hey Ho Lets Go](https://opensource.googleblog.com/2009/11/hey-ho-lets-go.html)
+- [Go packages name](https://go.dev/blog/package-names)
 - [rnt-example-point](https://github.com/)
 
 ## Future Updates
